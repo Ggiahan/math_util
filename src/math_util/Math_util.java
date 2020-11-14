@@ -31,6 +31,7 @@ public class Math_util {
         // to khi vong nem ve ngoai le , phair la ngoai le 
         // illegalargumentexception neu co tinh dua vao tham so am
         System.out.println("exception: IllegalArgumentException: " + MathUtility.getFactorial(-5));
+        System.out.println("hello");
     }
     
 }
