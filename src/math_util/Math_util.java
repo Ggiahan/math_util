@@ -35,3 +35,20 @@ public class Math_util {
     }
     
 }
+// minh muon ket luan ham tot phia test het cac truong hop
+// truong hop = 5! 0! -5! 21! 20!,..
+// minh phair thiet ke cac test case, tinh huong test de sau do minh verify
+//han chay phai tra ve
+// va neu moi thu khop, tuc la actual==expected, minh moi dam ket luan ham chay tot
+// cacsh nay co nguoc diem : phair nhin bang mat va so sanh ket qua cua tung case tinh huog
+//cach nay on nhung tiem an sai sot do nhin = mat nhieu case
+//CACH NANG CAO
+//cung nhin bang mat , nhung chi nhin 2 mau XANH- DO cho moi test case
+// co nghia khi ban xai ham cho 100 tham so, chay ham 100 tinh huog khac nhau
+//ban chi can nhin duy nhat 2 mau xanh, do
+//XANH: code on cho moi test case ; moi case phaii co actual== expected thi moi xanh
+// DO: moi case mau xanh, nhung chi co it nhat 1 thang do thif ket luan moi thang deu do
+//ham dung cho 99 truong hop nhung 1 truong hop sai--> ham khong on dinh
+//phai chinh xac voi moi thu moi duoc ket luan oon dinh cho moi truong hop
+//CHI CAN IT NHAT MOT CAI KHONG ON DINH, DOR CA DAM DE DAM BAO HAM PHAIH CHINH XAC MOI TINH HUONG
+//UON LAM DUOC DIEU NAY PHIA PHU THUOC 
