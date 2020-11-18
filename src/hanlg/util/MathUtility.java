@@ -24,22 +24,33 @@ public class MathUtility {
     //giai thua tang cuc nhanh, 21! long khong chua dc
     //bai nay minh se chan giai thua tu 0-20
     //am hoac 21 cui o them tinh
-    public static long getFactorial(int n) {
-        if (n < 0 || n > 20) {
+//    public static long getFactorial(int n) {
+//        if (n < 0 || n > 20) 
+//            throw new IllegalArgumentException("n must be between 0...20");
+//        
+//        if (n == 0 || n == 1) 
+//            return 1;//truong hop dac biet
+//        
+//        // dua nao viet else tru diem
+//        //mac nhien cpu den dc day la hieu rang n=2..20
+//
+//        long result = 1;
+//        for (int i = 2; i <= n; i++) {
+//            result *= i;
+//        }
+//        return result;
+
+//    }
+     public static long getFactorial(int n) {
+         if (n < 0 || n > 20) 
             throw new IllegalArgumentException("n must be between 0...20");
-        }
-        if (n == 0 || n == 1) {
+        
+        if (n == 0 || n == 1) 
             return 1;//truong hop dac biet
-        }
-        // dua nao viet else tru diem
-        //mac nhien cpu den dc day la hieu rang n=2..20
-
-        long result = 1;
-        for (int i = 2; i <= n; i++) {
-            result *= i;
-        }
-        return result;
-
-    }
+        
+         return  n*getFactorial(n-1);
+         // goi lai chinh minh 
+     }
+     
 
 }
